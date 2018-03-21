@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E63"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context="com.cogzidel.www.tinder_cz.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_choose_file"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitXY"
+                tools:background="@drawable/ic_user_in_circle"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/et_first_name"
+                style="@style/viewCustom"
+                android:backgroundTint="#ffffff"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:hint="Nick_name"
+                android:inputType="textPersonName"
+                android:editable="false"/>
+
+
+            <EditText
+                android:id="@+id/et_email"
+                style="@style/viewCustom"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/et_password"
+                style="@style/viewCustom"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/et_age"
+                style="@style/viewCustom"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/et_gender"
+                style="@style/viewCustom"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:hint="Gender"
+                android:inputType="text"
+                android:editable="false"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_password"
+                android:layout_gravity="center"
+                android:background="@drawable/buttondesign"
+                android:text="click @"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>
+

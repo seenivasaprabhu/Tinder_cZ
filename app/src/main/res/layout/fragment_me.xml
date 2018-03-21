@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.cogzidel.www.tinder_cz.MeFragment">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:id="@+id/relativeLayout"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="32dp"
+               android:orientation="vertical">
+
+
+               <ImageView
+                   android:id="@+id/btn_choose_file1"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:background="@drawable/tinderlogo3"
+                   android:layout_gravity="center"/>
+
+               <TextView
+                   android:id="@+id/et_first_name"
+                   style="@style/viewCustom"
+                   android:backgroundTint="#ffffff"
+                   android:cursorVisible="true"
+                   android:ems="10"
+                   android:hint="Nick_name"
+                   android:inputType="textPersonName"
+                   android:gravity="center"
+                   />
+
+               <TextView
+                   android:id="@+id/et_age"
+                   style="@style/viewCustom"
+                   android:backgroundTint="#ffffff"
+                   android:ems="10"
+                   android:hint="Age"
+                   android:inputType="number"
+                   android:gravity="center"/>
+
+               <TextView
+                   android:id="@+id/et_gender"
+                   style="@style/viewCustom"
+                   android:backgroundTint="#ffffff"
+                   android:ems="10"
+                   android:hint="Gender"
+                   android:inputType="text"
+                   android:gravity="center"/>
+
+               <Button
+                   android:layout_marginTop="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:id="@+id/btn_register"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/et_password"
+                   android:layout_gravity="center"
+                   android:background="@drawable/buttondesign"
+                   android:text="click @"
+                   android:textAllCaps="false"
+                   android:textColor="#ffffff"
+                   />
+
+           </LinearLayout>
+
+       </ScrollView>
+
+</FrameLayout>

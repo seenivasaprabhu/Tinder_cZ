@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_user_in_circle"
+        android:title="Me" />
+
+    <item
+        android:id="@+id/navigation_matches"
+        android:icon="@drawable/ic_chat_bubble"
+        android:title="Matches"
+        />
+
+
+    <item
+        android:id="@+id/navigation_seen"
+        android:icon="@drawable/ic_eye"
+        android:title="Seen"
+        />
+
+
+
+
+</menu>

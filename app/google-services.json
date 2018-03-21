@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "379370941840",
+    "firebase_url": "https://tinder-cz.firebaseio.com",
+    "project_id": "tinder-cz",
+    "storage_bucket": "tinder-cz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379370941840:android:8e3fb0abc6c398c5",
+        "android_client_info": {
+          "package_name": "com.cogzidel.www.tinder_cz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379370941840-mkg0gg4hngtueur81fsvnnemav9c6mqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cogzidel.www.tinder_cz",
+            "certificate_hash": "b127dc607e8eb20b4bfdda517b76d4a9805a0804"
+          }
+        },
+        {
+          "client_id": "379370941840-j699ijpmridnadk3nv7vg8i2afmmv398.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAG7ObeGRuwRntpV6xBkELQOngJQ-m-Fc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379370941840-j699ijpmridnadk3nv7vg8i2afmmv398.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
